@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "aa80e0ec-401a-491b-af4e-d1937504269d",
+		"name": "Spring Ex17",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26075556"
+	},
+	"item": [
+		{
+			"name": "GetRanomFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/flights",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/flights",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "basic_url",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
